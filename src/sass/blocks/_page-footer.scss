@@ -1,0 +1,35 @@
+.page-footer {
+  padding: 100px 30px;
+  background-color: rgb(57, 49, 47);
+  color: #fff;
+  text-align: center;
+}
+
+.page-footer__wrapper {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.page-footer__adress {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.page-footer__social {
+  margin-bottom: 35px;
+}
+
+.social__link-icon {
+  fill: #fff;
+
+  &:focus,
+  &:hover {
+    fill: $primary-color-heading;
+  }
+
+  &:active {
+    fill: rgba($primary-color-heading, 0.5);
+  }
+}

@@ -1,0 +1,47 @@
+.intro {
+  padding: 20px;
+  padding-top: 30px;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro__primary-title {
+  margin-bottom: 30px;
+}
+
+.intro__description {
+  margin-bottom: 40px;
+}
+
+@media (min-width: $tablet-width) {
+  .intro {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
+  .intro__wrapper {
+    width: 445px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .intro__primary-title {
+    margin-top: 150px;
+  }
+
+  .intro__primary-title {
+    margin-bottom: 50px;
+  }
+
+  .intro__description {
+    font-size: 17px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+	.intro__wrapper {
+		width: 600px;
+	}
+}

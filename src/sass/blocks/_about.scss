@@ -1,0 +1,38 @@
+.about {
+	padding: 40px 20px;
+	padding-bottom: 100px;
+}
+.about__wrapper {
+	text-align: center;
+}
+
+.about__section-title {
+	margin-bottom: 20px;
+}
+
+@media (min-width: $tablet-width) {
+	.about {
+		padding-top: 60px;
+		padding-bottom: 140px;
+	}
+
+	.about__wrapper {
+		max-width: 940px;
+		margin: 0 auto;
+	}
+
+	.about__section-title {
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.about {
+		padding-top: 90px;
+		padding-bottom: 200px;
+	}
+
+	.about__section-title {
+		margin-bottom: 40px;
+	}
+}

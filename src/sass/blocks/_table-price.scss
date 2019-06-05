@@ -1,0 +1,34 @@
+.table-price {
+	border-collapse: collapse;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.table-price td {
+	padding: 5px;
+}
+
+.table-price__dish {
+	font-weight: 700;
+}
+
+.table-price__cost {
+	font-weight: 400;
+}
+
+@media (min-width: $tablet-width) {
+	.table-price {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.table-price {
+		font-size: 16px;
+	}
+
+	.table-price  td {
+		padding: 0px;
+	}
+}

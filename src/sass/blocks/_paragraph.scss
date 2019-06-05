@@ -1,0 +1,17 @@
+.paragraph {
+  margin: 0;
+  
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 500;
+
+  &--light {
+    color: $primary-color-light;
+  }
+}
+
+@media (min-width: $desktop-width) {
+	.paragraph {
+		font-size: 18px;
+	}
+}

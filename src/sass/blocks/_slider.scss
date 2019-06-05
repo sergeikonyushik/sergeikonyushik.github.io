@@ -1,0 +1,22 @@
+.slider__toggle {
+	cursor: pointer;
+	border: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 10px;
+	border-radius: 50%;
+	width: 9px;
+	height: 9px;
+	background-color: #ececec;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.slider__toggle--active {
+	width: 11px;
+	height: 11px;
+	border: 1px solid #ececec;
+	background-color: transparent;
+}

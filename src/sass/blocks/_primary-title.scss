@@ -1,0 +1,20 @@
+.primary-title {
+  margin: 0;
+
+  font-family: "$second-font";
+  font-size: 30px;
+  color: $primary-color-heading;
+  text-transform: capitalize;
+}
+
+@media (min-width: $tablet-width) {
+  .primary-title {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+	.primary-title {
+		font-size: 55px;
+	}
+}

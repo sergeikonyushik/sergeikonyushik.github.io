@@ -1,0 +1,25 @@
+.section-title {
+	margin: 0;
+	font-family: $second-font;
+	font-size: 29px;
+	letter-spacing: 0.8px;
+	text-align: center;
+	font-weight: 400;
+	color: $primary-color-darker;
+}
+
+.section-title--importatnt {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.section-title--uppercase {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+@media (min-width: $tablet-width) {
+	.section-title {
+		font-size: 32px;
+	}
+}

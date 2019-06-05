@@ -1,0 +1,19 @@
+.page-header {
+  width: auto;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)),
+    url("../img/coffee-shop.jpg");
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+	.page-header {
+		padding-bottom: 200px;
+		background-size: cover;
+		background-position: center;
+	}
+}

@@ -1,0 +1,28 @@
+.section-icon {
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 39px;
+		height: 39px;
+		background-image: url("../img/coffee_icon_divider.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+@media (min-width: $tablet-width) {
+	.section-icon::after {
+		bottom: 45px;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.section-icon::after {
+		bottom: 60px;
+	}
+}
